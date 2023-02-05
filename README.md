@@ -1,2 +1,2 @@
 # Cryptocurrency_exchange_rate_and_AutorizationSql
-Это также тестовый проект созданный для резюме. Здесь реализована авторизация и регестрация (все данные храняться на локальном сервере), и после входа вам будут отображаться курс популярных криптовалют в рельном времени.
+This is also a test project created for a resume. Authorization and registration are implemented here (all data is stored on a local server), and after logging in, you will be shown the rate of popular cryptocurrencies in real time.

@@ -63,16 +63,16 @@
             this.ChangeGreen.Depth = 0;
             this.ChangeGreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.ChangeGreen.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.ChangeGreen.Location = new System.Drawing.Point(212, 0);
+            this.ChangeGreen.Location = new System.Drawing.Point(243, 0);
             this.ChangeGreen.Margin = new System.Windows.Forms.Padding(0);
             this.ChangeGreen.MouseLocation = new System.Drawing.Point(-1, -1);
             this.ChangeGreen.MouseState = MaterialSkin.MouseState.HOVER;
             this.ChangeGreen.Name = "ChangeGreen";
             this.ChangeGreen.Ripple = true;
-            this.ChangeGreen.Size = new System.Drawing.Size(100, 37);
+            this.ChangeGreen.Size = new System.Drawing.Size(97, 37);
             this.ChangeGreen.TabIndex = 19;
             this.ChangeGreen.TabStop = true;
-            this.ChangeGreen.Text = "Зеленый";
+            this.ChangeGreen.Text = "Зелений";
             this.ChangeGreen.UseVisualStyleBackColor = false;
             this.ChangeGreen.Visible = false;
             this.ChangeGreen.CheckedChanged += new System.EventHandler(this.ChangeGreen_CheckedChanged);
@@ -83,16 +83,16 @@
             this.ChangeBlue.Checked = true;
             this.ChangeBlue.Depth = 0;
             this.ChangeBlue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ChangeBlue.Location = new System.Drawing.Point(130, 0);
+            this.ChangeBlue.Location = new System.Drawing.Point(158, 0);
             this.ChangeBlue.Margin = new System.Windows.Forms.Padding(0);
             this.ChangeBlue.MouseLocation = new System.Drawing.Point(-1, -1);
             this.ChangeBlue.MouseState = MaterialSkin.MouseState.HOVER;
             this.ChangeBlue.Name = "ChangeBlue";
             this.ChangeBlue.Ripple = true;
-            this.ChangeBlue.Size = new System.Drawing.Size(81, 37);
+            this.ChangeBlue.Size = new System.Drawing.Size(76, 37);
             this.ChangeBlue.TabIndex = 18;
             this.ChangeBlue.TabStop = true;
-            this.ChangeBlue.Text = "Синий";
+            this.ChangeBlue.Text = "Синій";
             this.ChangeBlue.UseVisualStyleBackColor = true;
             this.ChangeBlue.Visible = false;
             this.ChangeBlue.CheckedChanged += new System.EventHandler(this.ChangeBlue_CheckedChanged);
@@ -109,9 +109,9 @@
             this.ChangeOrange.MouseState = MaterialSkin.MouseState.HOVER;
             this.ChangeOrange.Name = "ChangeOrange";
             this.ChangeOrange.Ripple = true;
-            this.ChangeOrange.Size = new System.Drawing.Size(123, 37);
+            this.ChangeOrange.Size = new System.Drawing.Size(147, 37);
             this.ChangeOrange.TabIndex = 17;
-            this.ChangeOrange.Text = "Оранжевый";
+            this.ChangeOrange.Text = "Помаранчевий";
             this.ChangeOrange.UseVisualStyleBackColor = false;
             this.ChangeOrange.Visible = false;
             this.ChangeOrange.CheckedChanged += new System.EventHandler(this.ChangeOrange_CheckedChanged);
@@ -122,9 +122,9 @@
             this.PanelChangecolor.Controls.Add(this.ChangeOrange);
             this.PanelChangecolor.Controls.Add(this.ChangeGreen);
             this.PanelChangecolor.Controls.Add(this.ChangeBlue);
-            this.PanelChangecolor.Location = new System.Drawing.Point(485, 26);
+            this.PanelChangecolor.Location = new System.Drawing.Point(459, 26);
             this.PanelChangecolor.Name = "PanelChangecolor";
-            this.PanelChangecolor.Size = new System.Drawing.Size(321, 37);
+            this.PanelChangecolor.Size = new System.Drawing.Size(347, 37);
             this.PanelChangecolor.TabIndex = 20;
             this.PanelChangecolor.Visible = false;
             // 
@@ -142,7 +142,7 @@
             this.LoginText.Name = "LoginText";
             this.LoginText.Size = new System.Drawing.Size(258, 50);
             this.LoginText.TabIndex = 22;
-            this.LoginText.Text = "";
+            this.LoginText.Text = "1";
             this.LoginText.TrailingIcon = null;
             // 
             // materialLabel1
@@ -153,9 +153,9 @@
             this.materialLabel1.Location = new System.Drawing.Point(309, 152);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(46, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(41, 19);
             this.materialLabel1.TabIndex = 23;
-            this.materialLabel1.Text = "Логин";
+            this.materialLabel1.Text = "Логін";
             // 
             // materialLabel2
             // 
@@ -183,7 +183,7 @@
             this.PasswordText.Name = "PasswordText";
             this.PasswordText.Size = new System.Drawing.Size(258, 50);
             this.PasswordText.TabIndex = 24;
-            this.PasswordText.Text = "";
+            this.PasswordText.Text = "2";
             this.PasswordText.TrailingIcon = null;
             // 
             // EnterBut
@@ -201,7 +201,7 @@
             this.EnterBut.NoAccentTextColor = System.Drawing.Color.Empty;
             this.EnterBut.Size = new System.Drawing.Size(228, 36);
             this.EnterBut.TabIndex = 26;
-            this.EnterBut.Text = "Войти";
+            this.EnterBut.Text = "Вхід";
             this.EnterBut.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.EnterBut.UseAccentColor = false;
             this.EnterBut.UseVisualStyleBackColor = true;
@@ -222,7 +222,7 @@
             this.RegBut.NoAccentTextColor = System.Drawing.Color.Empty;
             this.RegBut.Size = new System.Drawing.Size(228, 36);
             this.RegBut.TabIndex = 27;
-            this.RegBut.Text = "Регестрация";
+            this.RegBut.Text = "Реєстрація";
             this.RegBut.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.RegBut.UseAccentColor = false;
             this.RegBut.UseVisualStyleBackColor = true;
@@ -242,7 +242,7 @@
             this.Controls.Add(this.PanelChangecolor);
             this.Controls.Add(this.PictureChengecolor);
             this.Name = "MainForm";
-            this.Text = "Autorization";
+            this.Text = "Авторизація";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureChengecolor)).EndInit();
             this.PanelChangecolor.ResumeLayout(false);

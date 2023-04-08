@@ -58,7 +58,7 @@ namespace AutorizationSql
             if (LoginText.Text != "" && PasswordText.Text != "" && SityText.Text != "" && (ChangeSexFemale.Checked || ChangeSexMale.Checked || ChangeSexOther.Checked))
             {
 
-                string login, password;
+                string login;
                 bool iteretion = false;
                 SqlDataReader sqlDataReader = null;
                 SqlCommand sqlCommand_find_iteretion = new SqlCommand("SELECT Login FROM Users", connection);
@@ -77,24 +77,14 @@ namespace AutorizationSql
                 if (iteretion == false) { 
                 
                     string Sex = "";
-                    string Date, day;
+                    string Date;
 
                     if (ChangeSexFemale.Checked) { Sex = "Female"; }
                     if (ChangeSexMale.Checked) { Sex = "Male"; }
                     if (ChangeSexOther.Checked) { Sex = "Other"; }
 
-                    Date = String.Format("{0}", DateBirth.Value.ToString());
-                    Date = Date.Substring(0, Date.IndexOf(' ') + 1);
-                    Date = Date.Substring(Date.IndexOf('.'), Date.Length - 2);
-                    Date = Date.Substring(1, Date.Length - 2);
-                    day = String.Format("{0}", DateBirth.Value.ToString());
-                    day = day.Substring(0, day.IndexOf(' ') + 1);
-                    day = day.Substring(0, day.IndexOf('.'));
-                    Date = day+"."+Date;
-                    //Date = Date.Replace(Date.Substring(0, 2), Date.Substring(0, 3));
+                    Date = String.Format("{0}", DateBirth.Value.ToString("MM/dd/yyyy"));
 
-
-                    
                     SqlCommand command = new SqlCommand($"INSERT INTO [Users] (Login, Pasword, DateBirth, Sex, Sity) VALUES (N'{LoginText.Text}',N'{PasswordText.Text}',N'{Date}',N'{Sex}',N'{SityText.Text}')", connection);
                     sqlDataReader.Close();
                     command.ExecuteNonQuery();

@@ -58,7 +58,7 @@
             this.RedistrationButt.NoAccentTextColor = System.Drawing.Color.Empty;
             this.RedistrationButt.Size = new System.Drawing.Size(228, 36);
             this.RedistrationButt.TabIndex = 31;
-            this.RedistrationButt.Text = "Регестрация";
+            this.RedistrationButt.Text = "Зареєструватись";
             this.RedistrationButt.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.RedistrationButt.UseAccentColor = false;
             this.RedistrationButt.UseVisualStyleBackColor = true;
@@ -101,9 +101,9 @@
             this.materialLabel1.Location = new System.Drawing.Point(65, 95);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(46, 19);
+            this.materialLabel1.Size = new System.Drawing.Size(41, 19);
             this.materialLabel1.TabIndex = 28;
-            this.materialLabel1.Text = "Логин";
+            this.materialLabel1.Text = "Логін";
             // 
             // LoginText
             // 
@@ -130,9 +130,9 @@
             this.materialLabel3.Location = new System.Drawing.Point(64, 205);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
-            this.materialLabel3.Size = new System.Drawing.Size(122, 19);
+            this.materialLabel3.Size = new System.Drawing.Size(136, 19);
             this.materialLabel3.TabIndex = 33;
-            this.materialLabel3.Text = "Дата рождения ";
+            this.materialLabel3.Text = "Дата народження";
             // 
             // DateBirth
             // 
@@ -153,9 +153,9 @@
             this.materialLabel4.Location = new System.Drawing.Point(515, 203);
             this.materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel4.Name = "materialLabel4";
-            this.materialLabel4.Size = new System.Drawing.Size(30, 19);
+            this.materialLabel4.Size = new System.Drawing.Size(45, 19);
             this.materialLabel4.TabIndex = 35;
-            this.materialLabel4.Text = "Пол";
+            this.materialLabel4.Text = "Стать";
             // 
             // ChangeSexFemale
             // 
@@ -216,9 +216,9 @@
             this.materialLabel5.Location = new System.Drawing.Point(281, 287);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
-            this.materialLabel5.Size = new System.Drawing.Size(47, 19);
+            this.materialLabel5.Size = new System.Drawing.Size(44, 19);
             this.materialLabel5.TabIndex = 40;
-            this.materialLabel5.Text = "Город";
+            this.materialLabel5.Text = "Місто";
             // 
             // SityText
             // 
@@ -256,7 +256,7 @@
             this.Controls.Add(this.materialLabel1);
             this.Controls.Add(this.LoginText);
             this.Name = "RegistrationForm";
-            this.Text = "RegistrationForm";
+            this.Text = "Реєстрація";
             this.Load += new System.EventHandler(this.RegistrationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

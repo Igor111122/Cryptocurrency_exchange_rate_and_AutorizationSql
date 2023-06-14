@@ -162,16 +162,16 @@
             this.ChangeSexFemale.AutoSize = true;
             this.ChangeSexFemale.Depth = 0;
             this.ChangeSexFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ChangeSexFemale.Location = new System.Drawing.Point(477, 222);
+            this.ChangeSexFemale.Location = new System.Drawing.Point(485, 222);
             this.ChangeSexFemale.Margin = new System.Windows.Forms.Padding(0);
             this.ChangeSexFemale.MouseLocation = new System.Drawing.Point(-1, -1);
             this.ChangeSexFemale.MouseState = MaterialSkin.MouseState.HOVER;
             this.ChangeSexFemale.Name = "ChangeSexFemale";
             this.ChangeSexFemale.Ripple = true;
-            this.ChangeSexFemale.Size = new System.Drawing.Size(102, 37);
+            this.ChangeSexFemale.Size = new System.Drawing.Size(90, 37);
             this.ChangeSexFemale.TabIndex = 36;
             this.ChangeSexFemale.TabStop = true;
-            this.ChangeSexFemale.Text = "Женский";
+            this.ChangeSexFemale.Text = "Жіноча";
             this.ChangeSexFemale.UseVisualStyleBackColor = true;
             // 
             // ChangeSexMale
@@ -179,7 +179,7 @@
             this.ChangeSexMale.AutoSize = true;
             this.ChangeSexMale.Depth = 0;
             this.ChangeSexMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ChangeSexMale.Location = new System.Drawing.Point(588, 222);
+            this.ChangeSexMale.Location = new System.Drawing.Point(587, 222);
             this.ChangeSexMale.Margin = new System.Windows.Forms.Padding(0);
             this.ChangeSexMale.MouseLocation = new System.Drawing.Point(-1, -1);
             this.ChangeSexMale.MouseState = MaterialSkin.MouseState.HOVER;
@@ -188,7 +188,7 @@
             this.ChangeSexMale.Size = new System.Drawing.Size(104, 37);
             this.ChangeSexMale.TabIndex = 37;
             this.ChangeSexMale.TabStop = true;
-            this.ChangeSexMale.Text = "Мужской";
+            this.ChangeSexMale.Text = "Чоловіча";
             this.ChangeSexMale.UseVisualStyleBackColor = true;
             // 
             // ChangeSexOther
@@ -202,10 +202,10 @@
             this.ChangeSexOther.MouseState = MaterialSkin.MouseState.HOVER;
             this.ChangeSexOther.Name = "ChangeSexOther";
             this.ChangeSexOther.Ripple = true;
-            this.ChangeSexOther.Size = new System.Drawing.Size(73, 37);
+            this.ChangeSexOther.Size = new System.Drawing.Size(79, 37);
             this.ChangeSexOther.TabIndex = 38;
             this.ChangeSexOther.TabStop = true;
-            this.ChangeSexOther.Text = "Иной";
+            this.ChangeSexOther.Text = "Інший";
             this.ChangeSexOther.UseVisualStyleBackColor = true;
             // 
             // materialLabel5

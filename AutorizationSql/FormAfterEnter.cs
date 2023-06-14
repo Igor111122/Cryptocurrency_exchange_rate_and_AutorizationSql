@@ -1,24 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
 using System.Data.SqlClient;
 using System.Configuration;
-using System.Runtime.InteropServices.ComTypes;
 using System.Globalization;
 using Microsoft.ML;
-using Microsoft.ML.Data;
 
 namespace AutorizationSql
 {
@@ -1088,7 +1081,7 @@ namespace AutorizationSql
         }
         public void Whrite_data_every_day() {
 
-            System.Threading.Thread.Sleep(1000);
+            System.Threading.Thread.Sleep(2000);
             SqlDataReader sqlDataReader = null;
             SqlCommand sqlCommand = new SqlCommand("SELECT Id, data FROM Date_of_last_use", connection);
 

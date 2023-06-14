@@ -117,11 +117,11 @@ namespace AutorizationSql
                 }
                 if (isopen == false)
                 {
-                    MessageBox.Show("Вы ввели некорректные данные");
+                    MessageBox.Show("Ви ввели некоректні дані");
                 }
             }
             else {
-                MessageBox.Show("Введите логин и пароль");
+                MessageBox.Show("Введіть логін та пароль");
             }
         }
 

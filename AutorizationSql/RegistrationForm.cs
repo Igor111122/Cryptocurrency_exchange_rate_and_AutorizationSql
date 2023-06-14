@@ -89,15 +89,15 @@ namespace AutorizationSql
                     sqlDataReader.Close();
                     command.ExecuteNonQuery();
 
-                    MessageBox.Show("Регестриция прошла успешно");
+                    MessageBox.Show("Реєстрація пройшла успішно");
                     Close();
                 }
                 else{
-                    MessageBox.Show("Пользователь с таким логином уже существует");
+                    MessageBox.Show("Користувач з таким логіном вже існує");
                 }
             }
             else {
-                MessageBox.Show("Заполните все поля");
+                MessageBox.Show("Заповніть всі поля");
             }
         }
     }
